@@ -1,2 +1,2 @@
 # sweet_tea_dotfiles
-Rice for hyprlnad (work in progress...)
+Rice for hyprland (work in progress...)
