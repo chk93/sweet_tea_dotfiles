@@ -7,7 +7,7 @@ hyprland
 
 swaybg
 
-waybar
+waybar (will change to quickshell or ags)
 
 nemo
 
