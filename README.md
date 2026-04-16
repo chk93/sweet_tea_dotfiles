@@ -15,4 +15,8 @@ ghostty
 
 wofi
 
+otter launcher
+
+Hellwal
+
 Configs for all dependencies will be a little later
