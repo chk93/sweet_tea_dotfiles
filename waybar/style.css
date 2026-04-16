@@ -1,0 +1,86 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-size: 13px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(30, 35, 30, 0.95);
+    color: #d4eed7;
+    border-radius: 14px;
+    border: 1px solid rgba(100, 140, 100, 0.3);
+}
+
+#workspaces,
+#network,
+#cpu,
+#memory,
+#custom-gpu,
+#clock,
+#battery,
+#tray {
+    padding: 0 10px;
+}
+
+#cpu, #memory, #custom-gpu {
+    border-right: 1px solid rgba(100, 140, 100, 0.3);
+}
+
+#clock, #battery {
+    border-left: 1px solid rgba(100, 140, 100, 0.3);
+}
+
+#tray {
+    border-left: 1px solid rgba(100, 140, 100, 0.3);
+}
+
+#workspaces button {
+    color: #8aa88e;
+    padding: 0 6px;
+}
+
+#workspaces button:hover {
+    color: #b8e2bc;
+}
+
+#workspaces button.active {
+    color: #c2f0c7;
+    border-bottom: 2px solid #7cb57a;
+}
+
+#network {
+    color: #a8e0aa;
+}
+
+#cpu {
+    color: #b8e2bc;
+}
+
+#memory {
+    color: #a8d8aa;
+}
+
+#custom-gpu {
+    color: #c2ecc7;
+}
+
+#clock {
+    color: #c2ecc7;
+}
+
+#battery {
+    color: #a8e0aa;
+}
+
+#battery.charging {
+    color: #b8f0bc;
+}
+
+tooltip {
+    background: rgba(35, 40, 35, 0.95);
+    border: 1px solid rgba(100, 140, 100, 0.4);
+    border-radius: 8px;
+    color: #d4eed7;
+}

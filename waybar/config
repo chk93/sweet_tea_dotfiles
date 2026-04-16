@@ -1,0 +1,58 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 36,
+    "margin-top": 5,
+    "margin-left": 8,
+    "margin-right": 8,
+    
+    "modules-left": ["cpu", "memory", "custom/gpu"],
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right": ["clock", "battery", "tray"],
+    
+    "hyprland/workspaces": {
+        "format": "{name}",
+        "on-click": "activate",
+        "sort-by-number": true
+    },
+    
+    "network": {
+        "format-wifi": "󰖩",
+        "format-ethernet": "󰈀",
+        "format-disconnected": "󰖪",
+        "tooltip": true
+    },
+    
+    "cpu": {
+        "format": "󰻠 {usage}%",
+        "interval": 2
+    },
+    
+    "memory": {
+        "format": "󰑊 {}%",
+        "interval": 2
+    },
+    
+    "custom/gpu": {
+        "format": "󰢮 {}%",
+        "interval": 2,
+        "exec": "~/.config/waybar/gpu_percentage.sh"
+    },
+    
+    "clock": {
+        "format": "󰅐 {:%H:%M}",
+        "format-alt": "󰃭 {:%d.%m.%Y}"
+    },
+    
+    "battery": {
+        "format": "{icon} {capacity}%",
+        "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+        "format-charging": "󰂄 {capacity}%",
+        "format-plugged": "󰚥 {capacity}%"
+    },
+    
+    "tray": {
+        "icon-size": 18,
+        "spacing": 8
+    }
+}
